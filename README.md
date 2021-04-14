@@ -1,0 +1,1 @@
+# mindcontro.github.io
