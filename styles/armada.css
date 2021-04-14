@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: #E5E5E5;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+ul, li {
+    list-style-type: none;
+}
+.topline{
+    background-color: #65256F;
+    width: 1441px;
+    height: 38px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.topline p{
+    color: #FFB700;
+    line-height: 16.7px;
+    position: absolute;
+    left: 137px;
+    top: 9px;
+    font-family: gilroy;
+    font-style: normal;
+}
+.topline2 p{
+    color: white;
+    position: absolute;
+    left: 900px;
+    font-size: 15px;
+    top: 5px;
+}
+.topline2 span{
+    color: #FFB700;
+}
+.armada img{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    left:130px;
+    top:40px;
+}
+.armada .nav{
+    width: 50%;
+    color: black;
+    position: absolute  ;
+    display: flex;
+    justify-content: space-around;
+    top: 50px;
+    left:450px;
+    font-family: Montserrat;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.btn1{
+    width: 168px;
+    height: 42px;
+    position: absolute;
+    top:50px;
+    left: 1200px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.parent {
+    position: relative;
+    top: 100px;
+    left: 0;
+    border-bottom: 5px #FFFFFF;
+  }
+.socialss{
+    position: absolute;
+    top: 500px;
+    flex-direction: column;
+    left: 1200px;
+}
+.socialss1{
+    position: absolute;
+    top: 400px;
+    flex-direction: column;
+    left: 1200px;
+}
+.socialss2{
+    position: absolute;
+    top: 300px;
+    flex-direction: column;
+    left: 1200px;
+}
+  .imga1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .imgb1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+.parent p{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-family: Gilroy;
+    font-size: 70px;
+    text-align: left;
+}
+.imgc1{
+    position: absolute;
+    top: 410px;
+    left:200px;
+    width:100px;
+}
+.parent .pa1{
+    position: absolute;
+    top: 430px;
+    left: 200px;
+    font-size: 30px;
+    width: 50%;
+    letter-spacing: 1px;
+} 
+.btn2{
+    position: absolute;
+    width: 250px;
+    top: 550px;
+    left: 200px;
+    background-color: #FFC957;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.section3{
+    width: 100%;
+    margin-top: 150px;
+}
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 4px solid #BEBEBE; 
+    line-height: 1em;
+    margin: 20px 0 20px; 
+    font-family: Gilroy;
+    
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+     position: relative;
+     top: 15px;
+ }
+ .parent2{
+     margin-left: 20px;
+ }
+ .parent2:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+ }
+ .parent3{
+     width: 100%;
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    
+
+ }
+ .parent3 img{
+     width: 30%;
+    margin-top: 30px;
+     margin-bottom: 15px;
+ }
+ .parent3 .imga2 {
+    opacity: 0.5;
+    width: 30%;
+    height: 350px;
+    position: absolute;
+ }
+
+ .parent3 .imga2:nth-child(2) {
+     left: 50%;
+     transform: translateX(-50%);
+ }
+
+ .parent3 .imga2:nth-child(3) {
+    right: 0;
+}
+.parent3 .imga2:nth-child(4) {
+    left: 0;
+    bottom: 0;
+}
+.parent3 .imga2:nth-child(5) {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+.parent3 .imga2:nth-child(6) {
+    right: 0;
+    bottom: 0;
+}
+.btn3{
+    width: 430px;
+    height: 42px;
+    position: absolute;
+    top: 800px;
+    left: 500px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.proizv{
+    width: 100%;
+    margin-top: 100px;
+}
+.parent4{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.comanda{
+    width: 100%;
+    margin-top: 40px;
+}
+.col-3 img{
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.col-3 p, h3{
+    margin: 20px;
+}
+.comand1{
+    font-family: Gilroy-Light;
+}
+
+.btn4{
+    width: 430px;
+    height: 42px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    position: relative;
+    left: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.customer{
+    margin-top: 50px;
+}
+.nike{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.team{
+    display: flex;
+    justify-content: space-between;
+}
+.comanda7{
+    margin-top: 50px;
+}
+.row7{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 90px;
+}
+/* .comand7{
+    margin-left: 0px;
+}
+.comand17{
+    margin-left: 0px;
+} */
+.col-4 , p{
+    margin-left: 0;
+    font-family: Gilroy;
+    font-size: 20px;
+}
+.col-4 h3{
+    margin-left: 0;
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-weight: 600;
+}
+.leave h4{
+    margin-top: 80px;
+    position: relative;
+    left: 500px;
+    font-family: Gilroy-Light;
+    font-weight: 600 ;
+    font-size: 35px;
+}
+.leave p{
+    position: relative;
+    left: 400px;
+    font-family: Gilroy-ExtraBold;
+    font-size: 25px;
+}
+.leave1{
+    width: 800px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+.leave2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 200px;
+
+}
+.btn5{
+    width: 300px;
+    height: 50px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    border-radius: 5px;
+
+}
+.leave2 input{
+    width: 300px;
+    background-color: #E5E3E3;
+    border-radius: 5px;
+}
+.bttmline{
+    width: 100%;
+    height: 400px;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.bttmline h5{
+        font-size: 30px;
+        font-family: Gilroy-Extrabold;
+        margin-bottom: 50px;
+        font-weight: 600;
+}
+.bttmline .about{
+    width: 20%;
+}
+.bttmline .information{
+    width: 20%;
+}
+.bttmline .p{
+    font-family: Gilroy-Light;
+}
